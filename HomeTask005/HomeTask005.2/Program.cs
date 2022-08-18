@@ -12,7 +12,7 @@ try
   CW("Задание 2. Программа, которая определяет, присутствует ли заданное число в массиве.");
   CW("Введите число для поиска в массиве: ");
 
-  int number = Int32.Parse(CR());
+  int number = Math.Abs(Int32.Parse(CR()));
   int[] array = new int[10];
 
   Random rand = new Random();
